@@ -6,7 +6,7 @@ const rating = document.getElementById("Rating")
 function choose () {
     rating.innerHTML = " "
     let age = prompt("What is your Age (Must be over 20!)")
-    while ( age < 20) {
+    while ( age < 20 ) {
         age = prompt("What is your Age (Must be over 20!)")
     }
     var person  = prompt("Enter your favorite person in AOT (Choose between Levi, Eren and Mikasa)");
