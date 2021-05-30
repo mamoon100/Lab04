@@ -41,6 +41,8 @@ footer {
     grid-column: 1 / 4;
     font-size: 2vh;
     text-align: center;
+    display: grid;
+    place-items: center;
   }
 
 span {
@@ -56,4 +58,10 @@ span {
 button {
     width: 200px;
     height: auto ;
+}
+
+#Rating {
+  width: fit-content;
+  height: auto;
+  background: white;
 }
